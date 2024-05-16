@@ -36,8 +36,6 @@ balance = TokenWallet(w3, addresses, tokens)
 balance.display_TokenWallet_balance()
 
 
-
-
 # Izračun ukupne vrijednosti portfelja
 portfolio = Portfolio(w3, addresses, tokens)
 total_values = portfolio.calculate_total_portfolio_value(token_prices)
